@@ -1,3 +1,14 @@
+This project is from NV few shot gaze, and just for learning to folk.
+In the project some tips maybe help.
+1. When you run the demo, load_stat_dict() function should be restricted by the parameter 'strict=False', otherwise, you may have erros report. 
+2. The pgi should refer to issue 18 in the project.  Becareful, the monitor may cause you code dead in a few minutes esp, when you are running the code on a remote server. Please be carefully!!!!!
+3. There are so many third packages to install, if you are in China, please use the tuna.tsinghua.xxxx for the vpn, otherwise you will fail to install many packages.
+4. when you install the eos-py, please make sure it is eos-py not eos, because there is eos indeed in python packages. And if you failed when you run the code below 'CC=`which gcc-7` CXX=`which g++-7` pip3 install eos-py' you can try to install eos-py by just only pip3 install eos-py, maybe with tuna.tsinghua.xxxx for vpn. In my work, I installed the eos-py in the later way.
+
+UP BY ZJY
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 # Updates
 
 Release 09/22/2020
